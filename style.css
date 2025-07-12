@@ -18,7 +18,7 @@
     font-family: "Space Mono", monospace;
   }
   
-  body {
+   body {
     background-color: var(--lm-bg);
     font-size: 13px;
     color: var(--lm-text);
@@ -77,9 +77,9 @@
     align-items: center;
     background-image: url(./assets/images/search-icon.svg);
     background-repeat: no-repeat;
-    background-position-x: 24px;
+     background-position-x: 24px;
     background-position-y: center;
-    background-size: 20px;
+    background-size: 20px; 
   }
   
   #input {
@@ -238,7 +238,8 @@
     top: -25px;
   }
   
-  .dm-text {
+  /* for future reference for dark mode */
+  /* .dm-text {
     color: var(--dm-text);
   }
   
@@ -248,13 +249,12 @@
   
   .dm-bg-sec {
     background-color: var(--dm-bg-content);
-  }
+   }   */
   
   .active {
     box-shadow: var(--lm-shadow);
   }
   
-  /* tablet */
   @media screen and (min-width: 768px) {
     .container {
       width: 573px;
@@ -350,7 +350,6 @@
     }
   }
   
-  /* Desktop */
   @media screen and (min-width: 1280px) {
     .container {
       width: 730px;
@@ -401,4 +400,4 @@
       width: 65%;
     }
   }
-  
+   
